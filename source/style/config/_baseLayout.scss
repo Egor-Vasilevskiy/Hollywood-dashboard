@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    max-width: 1366px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    margin-left: 70px;
+}
+
+@include sm {
+    .container {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+}
