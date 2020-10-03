@@ -1,0 +1,66 @@
+main {
+    margin: 20px;
+    max-width: 990px;
+    background: #F0F0F0 ;
+}
+
+.main__top {
+    display: flex;
+    flex-direction: row;
+    height: 266px;
+}
+
+.monthly__revenue {
+    flex: auto;
+    margin-right: 20px;
+    background: crimson;
+}
+
+.revenue__hour {
+    min-width: 265px;
+    background: cyan;
+}
+
+.main__bottom {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+
+    &--left {
+        min-width: 470px;
+        background: darkblue;
+        margin-right: 20px;
+    }
+
+    &--right {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 500px;
+        background: darkcyan;
+    }
+}
+
+.today__task {
+    max-height: 245px;
+    width: 100%;
+    background: darkgreen;
+    margin-bottom: 20px;
+}
+
+.card__items {
+    display: flex;
+    
+}
+
+.card__progress {
+    min-width: 241px;
+    height: 245px;
+    margin-right: 18px;
+    background: darkorange;
+}
+
+.card__shipments {
+    min-width: 241px;
+    height: 245px;
+    background: darkorange;
+}
