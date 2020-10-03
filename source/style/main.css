@@ -431,15 +431,15 @@ textarea {
 }
 
 .aside__button--users {
-  background: url(/source/img/aside/users.png) no-repeat center;
+  background: url(../../source/img/aside/users.png) no-repeat center;
 }
 
 .aside__button--chat {
-  background: url(/source/img/aside/chat.png) no-repeat center;
+  background: url(../../source/img/aside/chat.png) no-repeat center;
 }
 
 .aside__button--likes {
-  background: url(/source/img/aside/like.png) no-repeat center;
+  background: url(../../source/img/aside/like.png) no-repeat center;
 }
 
 .aside__list {
@@ -455,7 +455,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   padding: 20px 0;
-  background: url(/source/img/aside/chat_user.png) no-repeat 90% center;
+  background: url(../../source/img/aside/chat_user.png) no-repeat 90% center;
 }
 
 .aside__avatar {
@@ -492,7 +492,7 @@ textarea {
   border: none;
   width: 19px;
   height: 19px;
-  background: url(/source/img/aside/search.png) no-repeat center;
+  background: url(../../source/img/aside/search.png) no-repeat center;
 }
 
 .aside__search--edit {
@@ -500,7 +500,7 @@ textarea {
   margin-left: 15px;
   width: 19px;
   height: 19px;
-  background: url(/source/img/aside/edit.png) no-repeat center;
+  background: url(../../source/img/aside/edit.png) no-repeat center;
 }
 
 .input__search {
@@ -563,27 +563,27 @@ textarea {
 }
 
 .footer__item--rdio {
-  background: url(/source/img/footer/rdio.png) no-repeat;
+  background: url(../../source/img/footer/rdio.png) no-repeat;
 }
 
 .footer__item--css {
-  background: url(/source/img/footer/css3.png) no-repeat;
+  background: url(../../source/img/footer/css3.png) no-repeat;
 }
 
 .footer__item--deviantart {
-  background: url(/source/img/footer/deviantart.png) no-repeat;
+  background: url(../../source/img/footer/deviantart.png) no-repeat;
 }
 
 .footer__item--xing {
-  background: url(/source/img/footer/xing.png) no-repeat;
+  background: url(../../source/img/footer/xing.png) no-repeat;
 }
 
 .footer__item--vimeo {
-  background: url(/source/img/footer/vimeo.png) no-repeat;
+  background: url(../../source/img/footer/vimeo.png) no-repeat;
 }
 
 .footer__item--vk {
-  background: url(/source/img/footer/vk.png) no-repeat;
+  background: url(../../source/img/footer/vk.png) no-repeat;
 }
 
 @media (max-width: 768px) {
