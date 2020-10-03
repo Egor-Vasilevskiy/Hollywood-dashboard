@@ -10,15 +10,15 @@
     border: none;
 
     &--users {
-        background: url(../../source/img/aside/users.png) no-repeat center;
+        background: url(../source/img/aside/users.png) no-repeat center;
     }
 
     &--chat {
-        background: url(../../source/img/aside/chat.png) no-repeat center;
+        background: url(../source/img/aside/chat.png) no-repeat center;
     }
 
     &--likes {
-        background: url(../../source/img/aside/like.png) no-repeat center;
+        background: url(../source/img/aside/like.png) no-repeat center;
     }
 }
 
@@ -33,7 +33,7 @@
 .aside__user {
     display: flex; 
     padding: 20px 0;
-    background: url(../../source/img/aside/chat_user.png) no-repeat 90% center;
+    background: url(../source/img/aside/chat_user.png) no-repeat 90% center;
 }
 
 .aside__avatar {
@@ -58,7 +58,7 @@
         border: none;
         width: 19px;
         height: 19px;
-        background: url(../../source/img/aside/search.png) no-repeat center;
+        background: url(../source/img/aside/search.png) no-repeat center;
     }
 
     &--edit {
@@ -66,7 +66,7 @@
         margin-left: 15px;
         width: 19px;
         height: 19px;   
-        background: url(../../source/img/aside/edit.png) no-repeat center;
+        background: url(../source/img/aside/edit.png) no-repeat center;
     }
 }
 
