@@ -121,6 +121,7 @@
     justify-content: space-around;
     flex: auto;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .add__card {
@@ -132,6 +133,7 @@
 }
 
 .daily__card {
+
     &--name {
         font-family: 'Lato', sans-serif;
         font-weight: bold;

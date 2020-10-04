@@ -1,8 +1,8 @@
-.aside {
-    flex: auto;
-}
+
+
 .aside__button {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     min-width: 90px;
     height: 48px;
@@ -44,6 +44,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &--name {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 13px; 
+        color: #777777;
+        padding-bottom: 10px;
+    }
+
+    &--position {
+        font-family: 'Lato', sans-serif;
+        font-size: 10px; 
+        color: #BFBFBF;
+    }
 }
 
 .aside__search {

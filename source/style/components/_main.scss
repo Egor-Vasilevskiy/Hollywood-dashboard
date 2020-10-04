@@ -1,66 +1,199 @@
-main {
-    margin: 20px;
-    max-width: 990px;
-    background: #F0F0F0 ;
+.name__section {
+    font-weight: $font_weight;
+    color: #777777;
+}
+
+.main {
+    padding: 20px; 
+    background: #F0F0F0;
+    flex: auto;
+    flex-basis: 528px;
+    min-width: 320px;
+    max-width: 1029px;
 }
 
 .main__top {
     display: flex;
-    flex-direction: row;
-    height: 266px;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
 }
 
 .monthly__revenue {
-    flex: auto;
-    margin-right: 20px;
-    background: crimson;
-}
-
-.revenue__hour {
-    min-width: 265px;
-    background: cyan;
-}
-
-.main__bottom {
     display: flex;
-    height: 100%;
-    margin-top: 10px;
-
-    &--left {
-        min-width: 470px;
-        background: darkblue;
-        margin-right: 20px;
-    }
-
-    &--right {
-        display: flex;
-        flex-wrap: wrap;
-        min-width: 500px;
-        background: darkcyan;
-    }
+    justify-content: space-between;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    max-width: 705px;   
+    background: #ffffff;
+    padding: 30px;
 }
 
-.today__task {
-    max-height: 245px;
-    width: 100%;
-    background: darkgreen;
+.line__chart {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+// Revenue__hour
+.revenue__hour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-basis: 245px;
+    max-width: 263px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.revenue__title {
     margin-bottom: 20px;
 }
 
-.card__items {
+// Main__bottom 
+
+.main__bottom {
     display: flex;
+    flex: auto;
+}
+
+.main__bottom--feed {
+    display: flex;
+    flex-direction: column;
+    max-width: 467px;
+    padding: 30px;
+    margin-right: 20px;
+    background: #FFFFFF;
+}
+
+.main__bottom--feed h3 {
+    padding-bottom: 40px;
+}
+
+.customers__avatar {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+
+.feed__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers__wrap {
+    display: flex;  
     
 }
 
-.card__progress {
-    min-width: 241px;
-    height: 245px;
-    margin-right: 18px;
-    background: darkorange;
+.customers__feed--list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.card__shipments {
-    min-width: 241px;
+.customers__feed--item {
+    font-size: 12px;
+    color: #777777;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.name__commentator {
+    font-weight: bold;
+}
+
+.customers__feed--item:not(:first-child) {
+    width: calc(100% - 30px);
+}
+
+
+
+// Main rigth 
+
+
+.main__bottom--right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.todays__task {
+    flex: auto;
+    padding: 30px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.today__task {
+    flex-grow: 1;
+    font-size: 12px;
+    color: #777777;
+}
+
+.task__list {
+    margin-top: 30px;
+}
+
+.task__list--item {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #777777;
+}
+
+.task__list--item:last-child {
+    border-bottom: 1px solid #777777;
+}
+
+.desc__task {
+    padding-right: 30px;
+}
+
+// card__progress
+.card__progress {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
     height: 245px;
-    background: darkorange;
+    max-width: 245px;
+    flex-basis: 240px;
+    background: darkorchid;
+}
+
+.map svg {
+    width: 100%;
+    height: auto;
+}
+
+// card__shipments
+.card__shipments {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    height: 245px;
+    max-width: 245px;
+    flex-basis: 240px;
+    background: #FFFFFF;
+}
+
+.sell {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: flex-end;
+
+    &__numb {
+        margin-right: 50px;
+    }
 }
