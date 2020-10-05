@@ -30,6 +30,7 @@
     max-width: 705px;   
     background: #ffffff;
     padding: 30px;
+    overflow-x: scroll;
 }
 
 .line__chart {
@@ -60,12 +61,12 @@
 
 .main__bottom {
     display: flex;
-    flex: auto;
 }
 
 .main__bottom--feed {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 467px;
     padding: 30px;
     margin-right: 20px;
@@ -161,17 +162,30 @@
 // card__progress
 .card__progress {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     padding-top: 30px;
     height: 245px;
     max-width: 245px;
     flex-basis: 240px;
-    background: darkorchid;
+    background: #ffffff;
 }
 
-.map svg {
-    width: 100%;
-    height: auto;
+.sell__numb--progress {
+    margin-top: 25px;
+}
+
+.sell__progress {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.graph {
+    margin-top: 25px;
+    width: 140px;
 }
 
 // card__shipments
@@ -187,10 +201,16 @@
     background: #FFFFFF;
 }
 
+.map svg {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+}
+
 .sell {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: flex-end;
 
     &__numb {
